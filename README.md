@@ -2,6 +2,11 @@
 
 This project implements the K-means clustering algorithm to compress images. The implementation is done without using any external libraries for K-means clustering.
 
+## Table of Contents
+- [Usage](#usage)
+- [Output](#outputn)
+
+
 ## Usage
 To compress an image, first create an instance of `ImageCompressor` class. You can then read the image using the `read_bmp` method. After reading the image, you can call `kmeans_compress` method to compress the image.
 ```python
