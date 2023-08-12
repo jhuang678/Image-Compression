@@ -57,9 +57,9 @@ class ImageCompressor(object):
         if self.verbose: print("3D-array image saved successfully.")
         if self.verbose: print("Please use bmp_kmeans_compress(k = int, norm = int) to compress image.")
 
-    def kmeans_compress(self, k:int = 2, norm:int = 2,img_path:str = "compressed_img.png", verbose = True):
+    def kmeans_compress(self, k: int = 2, norm: int = 2, img_path: str = "compressed_img.png", verbose=True):
         learner = km.KmeansLearner(verbose = verbose)
-        CLASS, CENTROID = learner.train_data(self.pixels, k = k, norm = norm)
+        CLASS, CENTROID = learner.train_data(self.pixels, k=k, norm = norm)
         CENTROID_dict = {}
         for i in set(CLASS):
             CENTROID_dict[i] = CENTROID[i]
@@ -68,7 +68,7 @@ class ImageCompressor(object):
         x, y, z = self.img_3Darray.shape
 
         img_3Darray_clustered = np.reshape(img_2Darray_clustered, (x, y, z), order="C")
-        self.display_image_from_3dim_array(img_3Darray_clustered, img_path = img_path)
+        self.display_image_from_3dim_array(img_3Darray_clustered, img_path=img_path)
         print("Finished compressing! Please see " + img_path)
 
 if __name__ == "__main__":
