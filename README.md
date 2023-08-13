@@ -30,56 +30,58 @@ The output of the `kmeans_compress` method is the compressed image. It is saved 
 
 ## Example
 
-Shape of the matrix: (570, 1084, 3)
-Compress from (570, 1084, 3) array into (617880, 3)
-Number of data: 617880 With dimensions = 3
+* The shape of the matrix: (570, 1084, 3)
+* Compress from (570, 1084, 3) array into (617880, 3)
+* Number of data: 617880 With dimensions = 3
+<img src="wdw.png" width="500">
+
+
 
 ### K = 2 ; Norm = 1
-iteration 5 ; Cumulative Time = 0.2798728942871094
-Total distance: 32799200.996086888
-Finished compressing! Please see wdw_l1k2.png
+* iteration 5 ; Cumulative Time = 0.2798728942871094
+* Total distance: 32799200.996086888
+* Finished compressing! Please see wdw_l1k2.png
 <img src="wdw_l1k2.png" width="500">
 
 ### K = 4 ; Norm = 1
-iteration 9 ; Cumulative Time = 0.7677738666534424
-Total distance: 19493470.104083724
-Finished compressing! Please see wdw_l1k4.png
+* iteration 9 ; Cumulative Time = 0.7677738666534424
+* Total distance: 19493470.104083724
+* Finished compressing! Please see wdw_l1k4.png
 <img src="wdw_l1k4.png" width="500">
 
 ### K = 6 ; Norm = 1
-iteration 14 ; Cumulative Time = 1.5598139762878418
-Total distance: 15489158.096972229
-Finished compressing! Please see wdw_l1k6.png
+* iteration 14 ; Cumulative Time = 1.5598139762878418
+* Total distance: 15489158.096972229
+* Finished compressing! Please see wdw_l1k6.png
 <img src="wdw_l1k6.png" width="500">
 
 ### K = 8 ; Norm = 1
-iteration 24 ; Cumulative Time = 3.399869203567505
-Total distance: 13364360.912264002
-Finished compressing! Please see wdw_l1k8.png
+* iteration 24 ; Cumulative Time = 3.399869203567505
+* Total distance: 13364360.912264002
+* Finished compressing! Please see wdw_l1k8.png
 <img src="wdw_l1k8.png" width="500">
 
 ### K = 2 ; Norm = 2
-iteration 10 ; Cumulative Time = 0.4967329502105713
-Total distance: 33299212.95240306
-Finished compressing! Please see wdw_l2k2.png
+* iteration 10 ; Cumulative Time = 0.4967329502105713
+* Total distance: 33299212.95240306
+* Finished compressing! Please see wdw_l2k2.png
 <img src="wdw_l2k2.png" width="500">
 
 ### K = 4 ; Norm = 2
-iteration 37 ; Cumulative Time = 2.900310754776001
-Total distance: 19880701.144455835
-Finished compressing! Please see wdw_l2k4.png
+* iteration 37 ; Cumulative Time = 2.900310754776001
+* Total distance: 19880701.144455835
+* Finished compressing! Please see wdw_l2k4.png
 <img src="wdw_l2k4.png" width="500">
 
 ### K = 6 ; Norm = 2
-iteration 53 ; Cumulative Time = 5.878566026687622
-Total distance: 16944748.781927068
-Finished compressing! Please see wdw_l2k6.png
+* iteration 53 ; Cumulative Time = 5.878566026687622
+* Total distance: 16944748.781927068
+* Finished compressing! Please see wdw_l2k6.png
 <img src="wdw_l2k6.png" width="500">
 
 ### K = 8 ; Norm = 2
-iteration 151 ; Cumulative Time = 21.121123790740967
-Iteration exceed max iteration.
-Total distance: 13860580.769553838
-Finished compressing! Please see wdw_l2k8.png
+* iteration 151 ; Cumulative Time = 21.121123790740967
+* Total distance: 13860580.769553838
+* Finished compressing! Please see wdw_l2k8.png
 <img src="wdw_l2k8.png" width="500">
 
